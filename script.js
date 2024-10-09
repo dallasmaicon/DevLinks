@@ -4,8 +4,8 @@ document.getElementById("switch").addEventListener("click", () => {
 
   const imgAvatar = document.querySelector('#profile img');
   if (html.classList.contains('light')) {
-    imgAvatar.setAttribute("src", "./assets/Avatar-light.png");
+    imgAvatar.setAttribute("src", "./assets/Avatar-light.jpg");
   } else {
-    imgAvatar.setAttribute("src", "./assets/Avatar.png");
+    imgAvatar.setAttribute("src", "./assets/Avatar.jpg");
   }
 });
